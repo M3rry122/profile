@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: blue;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.nav {
+    display: flex;
+    padding-top: 50px;
+    margin-right: 20px;
+}
+
+.nav li {
+    margin:0 0 10px 20px;
+}
+
+.font{
+    font-size: 16px;
+}
+
+.font label {
+    color: gray;
+}
+
+.ul { 
+    display: flex;
+}
+
+.ul li {
+    background-color: red;
+    margin:0 50px;
+    padding: 50px;
+    border: 2px solid blue
+}
+
+body {
+    background-color: azure;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+@media (max-width:600px) { 
+    .ul {
+        flex-direction: column;
+    }
+}
